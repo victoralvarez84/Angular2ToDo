@@ -1,0 +1,37 @@
+
+body{
+font-family: futura;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+li{
+  list-style-type: none;
+  margin-left:-40px;
+}
+
+
+input{
+  margin-top:10px;
+  height: 30px;
+  border:1px solid #333;
+  font-family: futura;
+  outline:none;
+}
+
+button{
+  font-family: futura;
+  border: none;
+  background-color: #fff;
+  color:#333;
+  height:30px;
+  outline:none;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover{
+  color: pink;
+}
